@@ -12,7 +12,7 @@ import image3 from '../images/10.png'
 const Articles = () => {
       return (
 
-            <Box sx={{ padding: '0 3rem' , margin:"4em 0" }}>
+            <Box sx={{ padding: '0 6vw' , margin:"4em 0" }}>
                   
                   <Stack direction={'row'} sx={{justifyContent:"space-between"}} mb="2em">
                         <Box>
@@ -29,33 +29,35 @@ const Articles = () => {
                         <Box sx={{backgroundColor:'#F9F9F9' , width:"362px"}}>
                               <Image src={image1} />  
 
-                              <Box sx={{padding:'1em 1em 4em'}}>
+                              <Box sx={{padding:'1em 1em 1em'}}>
 
                                     <Typography sx={{fontSize:"20px", fontWeight:'600'}}>Photo Composition </Typography>
                                     <Typography>Photo composition is how a photographer arranges visual elements within their frame. </Typography>
+                                    <Typography mt="1em">Read More</Typography>
                               </Box>
                         </Box>
 
                         <Box sx={{backgroundColor:'#F9F9F9'  , width:"362px"}} >
                               <Image src={image2} /> 
 
-                              <Box sx={{ padding: '1em 1em 4em' }}>
+                              <Box sx={{ padding: '1em 1em 1em' }}>
 
                              
-                                    <Typography sx={{fontSize:"20px", fontWeight:'600'}}>Photgraphy Basics </Typography>
+                                    <Typography sx={{fontSize:"20px", fontWeight:'600'}}>Photography Basics </Typography>
                                     <Typography>Photography is the art, application, and practice of creating durable images by recording light. </Typography>
-                                    
+                                    <Typography mt="1em">Read More</Typography>
                               </Box>
                         </Box>
 
                         <Box sx={{backgroundColor:'#F9F9F9'  , width:"362px"}}>
                               <Image src={image3} /> 
 
-                              <Box sx={{ padding: '1em 1em 4em' }}>
+                              <Box sx={{ padding: '1em 1em 1em' }}>
 
                              
                                     <Typography sx={{fontSize:"20px", fontWeight:'600'}}>Rule of Third</Typography>
                                     <Typography>The rule of thirds is a "rule of thumb" for composing visual images such as designs, films, paintings, and photographs.</Typography>
+                                    <Typography mt="1em">Read More</Typography>
                               </Box>
                         </Box>
 

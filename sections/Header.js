@@ -16,7 +16,7 @@ const StyledHeader = styled(Stack)(({ theme }) => ({
       gap: '2em',
       margin: '4em 0 ',
      
-      padding: '0 3rem',
+      padding: '0 6vw',
 
       [theme.breakpoints.down('md')]: {
             flexDirection: 'column'

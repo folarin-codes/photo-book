@@ -3,10 +3,10 @@ import { PrimaryButton } from "./Buttons"
 
 export const Navigation = () => {
       return (
-            <Stack direction={'row'} px='3rem' justifyContent='space-between' mt='1em' alignItems={'center'}>
+            <Stack direction={'row'} px='6vw' justifyContent='space-between' mt='1em' alignItems={'center'}>
                   
                   <Box>
-                        <Typography sx={{fontFamily:"Pacifico", fontSize:"1em"}}>
+                        <Typography  sx={{fontFamily:"Pacifico !important", fontSize:"1.5em"}}>
                               LadeMedics
                         </Typography>
                         

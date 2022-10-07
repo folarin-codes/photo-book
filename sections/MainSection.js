@@ -9,7 +9,7 @@ import lady from '../images/4.png'
 const StyledMain = styled(Stack)(({ theme }) => ({
       flexDirection: 'row',
       backgroundColor: '#1B1C1E',
-      padding: '2rem 3rem',
+      padding: '2rem 6vw',
       margin: '4em 0 ',
       justifyContent:"space-between",
      
