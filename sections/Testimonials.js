@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Box, Stack, Typography } from "@mui/material";
 import styled from "@emotion/styled";
 
+import { theme } from "../theme";
+
 import { PrimaryButton } from "../components/Buttons";
 
 
@@ -28,7 +30,7 @@ const Testimonials = () => {
 
       return (
 
-            <Box sx={{ padding: '0 6vw', margin: "4em 0" }}>
+            <Box sx={{ padding: '0 6vw', margin: "4em 0" }} id='testimonials'>
                   
                   <Typography variant="h3" component={'h3'}>Testimonials</Typography>
 
@@ -81,7 +83,7 @@ const Testimonials = () => {
                               </Stack>
                               
                               <Box mt='1em'>
-                                    <Typography fontSize={'18px'} fontWeight="600">Sarah Joe</Typography>
+                                    <Typography fontSize={'18px'} fontWeight="600">Jane Doe</Typography>
                                     <Typography fontSize={'12px'}  lineHeight="25px">The Session at Photo book was amazing. We have done three family sessions with Emily and could not be more pleased with how the sessions went and her photos turned out. I have two wild young boys who don’t always love family photo sessions. But, with photpbook, they have a great time and she captures what seem like impossible photos with how much they move around. Thanks Emily!</Typography>
                               </Box>
 
@@ -105,17 +107,18 @@ const Testimonials = () => {
                               </Stack>
 
                               <Box mt="1em">
-                                    <Typography fontSize={'18px'} fontWeight="600">Sarah Joe</Typography>
+                                    <Typography fontSize={'18px'} fontWeight="600">Lois Lane</Typography>
                                     <Typography fontSize={'12px'}  lineHeight="25px">The Session at Photo book was amazing. We have done three family sessions with Emily and could not be more pleased with how the sessions went and her photos turned out. I have two wild young boys who don’t always love family photo sessions. But, with photpbook, they have a great time and she captures what seem like impossible photos with how much they move around. Thanks Emily!</Typography>
                               </Box>
 
                         </Box>
                   </StyledStack>
 
-                  <Stack sx={{backgroundColor:"#1B1C1E" , margin:"4em 2em 0", padding:'2em 1em' , alignItems:"center" ,borderRadius: '10px'}} direction="row" justifyContent={'space-between'}>
+                  <Stack sx={{ backgroundColor: "#1B1C1E", margin: "4em 2em 0", padding: '2em 1em', alignItems: "center", borderRadius: '10px', [theme.breakpoints.down('md')]:{flexDirection:"column", marginX:0, gap:'1em'} }} direction="row" justifyContent={'space-between'}>
+                        
                         <Typography color={'white'}>Know More About the Service we offer </Typography>
 
-                        <Stack direction='row' sx={{backgroundColor:"white", width:"35vw" , justifyContent:"space-between", padding:"1em 1em" , borderRadius:'10px', alignItems:"center"}}>
+                        <Stack direction='row' sx={{backgroundColor:"white", width:"35vw" , justifyContent:"space-between", padding:"1em 1em" , borderRadius:'10px', alignItems:"center",  [theme.breakpoints.down('md')]:{ width:"70vw" }}}>
                               <input type={'email'} placeholder='enter your email ' style={{outline:'none', border:"none" , backgroundColor:"white"}}/>
                               
                               <PrimaryButton>Subscribe</PrimaryButton>
