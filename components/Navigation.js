@@ -23,7 +23,7 @@ export const Navigation = () => {
                         <Link sx={{cursor:'pointer'}} underline="hover" href="/">Home</Link>
                         <Link sx={{cursor:'pointer', [theme.breakpoints.down('md')]:{display:"none"}}} underline="hover"  href="#about">About Us</Link>
                         <Link sx={{cursor:'pointer',[theme.breakpoints.down('sm')]:{display:"none"}}} underline="hover" href="#">How It Works</Link>
-                        <Link sx={{cursor:'pointer',[theme.breakpoints.down('md')]:{display:"none"}}} underline="hover"  href="#">Doctors</Link>
+                        <Link sx={{cursor:'pointer',[theme.breakpoints.down('md')]:{display:"none"}}} underline="hover"  href="#">Photographers</Link>
                         <Link sx={{ cursor: 'pointer' }} underline="hover" href="#testimonials">Testimonials</Link>
                         
                         <PrimaryButton sx={{[theme.breakpoints.down('md')]:{display:"none"}}}>Get Started</PrimaryButton>

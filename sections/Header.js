@@ -45,7 +45,7 @@ const Header = () => {
       return (
             <StyledHeader>
                   <Box sx={{width:"50%", [theme.breakpoints.down('md')]:{width:'100%'}}}>
-                        <Typography variant='h1' component="h1" mb='.3em'>Accessible Healthcare for you and your family </Typography>
+                        <Typography variant='h1' component="h1" mb='.3em'>Lets Tell Your Beautiful Stories Together</Typography>
 
                         <Typography mb='.8em' sx={{fontSize:'24px'}}>Stories have to told and captured and there is no <br/> greater agony than bearing an untold story inside you.<br/>  Lets help you capture and tell beautiful stories <br/>  that shares your journey with those looking up to you.   </Typography>
                         
